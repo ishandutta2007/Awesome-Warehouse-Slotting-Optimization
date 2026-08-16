@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3c72" />
+      <stop offset="100%" stop-color="#2a5298" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7e5f" />
+      <stop offset="100%" stop-color="#feb47b" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="300" rx="15" fill="url(#bgGrad)" />
+  
+  <!-- Dynamic Warehouse Boxes -->
+  <g fill="url(#boxGrad)" opacity="0.8">
+    <rect x="-50" y="50" width="60" height="60" rx="5">
+      <animate attributeName="x" from="-50" to="1050" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="-50" y="130" width="80" height="60" rx="5">
+      <animate attributeName="x" from="-50" to="1050" dur="12s" repeatCount="indefinite" />
+    </rect>
+    <rect x="-50" y="210" width="50" height="50" rx="5">
+      <animate attributeName="x" from="-50" to="1050" dur="6s" repeatCount="indefinite" />
+    </rect>
+  </g>
+  
+  <!-- Warehouse Shelving Overlay -->
+  <g stroke="#ffffff" stroke-width="4" opacity="0.2">
+    <line x1="200" y1="0" x2="200" y2="300" />
+    <line x1="400" y1="0" x2="400" y2="300" />
+    <line x1="600" y1="0" x2="600" y2="300" />
+    <line x1="800" y1="0" x2="800" y2="300" />
+    <line x1="0" y1="100" x2="1000" y2="100" />
+    <line x1="0" y1="200" x2="1000" y2="200" />
+  </g>
+
+  <!-- Title Text -->
+  <text x="50%" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">
+    Awesome Warehouse Slotting
+  </text>
+  <text x="50%" y="200" font-family="Arial, sans-serif" font-size="24" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">
+    Optimization &amp; Routing Algorithms
+  </text>
+</svg>
