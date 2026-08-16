@@ -1,6 +1,6 @@
 # Awesome-Warehouse-Slotting-Optimization
 
-# Top Crew Management Platforms Ecosystem
+## Top Crew Management Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Airline & Maritime Crew Planning, Rostering, Pairing, Legality/FTL Compliance, Qualifications Tracking & Workforce Optimization*
 **Last updated: August 2026**
